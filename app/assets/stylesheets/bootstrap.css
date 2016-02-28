@@ -1144,6 +1144,27 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+.social-buttons {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  /*line-height: 40px;*/
+  color: white;
+  outline: none;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
