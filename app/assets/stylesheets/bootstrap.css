@@ -1145,24 +1145,25 @@ img {
   border-radius: 50%;
 }
 
-.resize {
+.resize-head-shot {
     width: 100px;
     height: auto;
 }
 
-.resize {
-    width: 100px;
-    height: auto;
-}
 
-.social-buttons {
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
   display: inline-block;
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  /*line-height: 40px;*/
-  color: white;
-  outline: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.fa-twitter{
+  font-size: 1.5em;
 }
 
 hr {
@@ -5462,6 +5463,9 @@ button.list-group-item-danger.active:focus {
   color: #fff;
   background-color: #a94442;
   border-color: #a94442;
+}
+.white-bg:hover {
+      color: #eb3812;
 }
 .list-group-item-heading {
   margin-top: 0;
